@@ -1,4 +1,4 @@
-public class variables {
+public class Variables {
     public static void main(String[] str) {
         int age = 36;
         double temp = 36.6;
@@ -27,6 +27,6 @@ public class variables {
         System.out.println();
 
         // Форматированный вывод
-
+        System.out.printf("Имя: %s | Возраст: %d | Температура: %.1f°C", name, age, temp);
     }
 }
